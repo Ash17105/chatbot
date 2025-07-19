@@ -26,9 +26,11 @@ if not GOOGLE_API_KEY:
 else:
     # Initialize Gemini LLM using LangChain
     llm = ChatGoogleGenerativeAI(
-        model="models/gemini-pro",
-        temperature=0.7,
-        google_api_key=GOOGLE_API_KEY,
+    model="models/chat-bison-001",  # <-- change model here
+    temperature=0.7,
+    google_api_key=GOOGLE_API_KEY
+)
+
     )
 
     # Setup conversation memory and chain
