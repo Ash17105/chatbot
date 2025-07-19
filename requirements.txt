@@ -1,2 +1,2 @@
 streamlit
-export GEMINI_API_KEY=<AIzaSyAUdU9BrCWZokVQ5XlbqSklz0jom3nSxuY>
+openai
