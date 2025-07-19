@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load API key from .env (optional for local dev)
 load_dotenv()
-
+api_key = os.getenv("GOOGLE_API_KEY")
 # Set Streamlit page config
 st.set_page_config(page_title="💬 Gemini Chatbot", page_icon="🤖")
 
