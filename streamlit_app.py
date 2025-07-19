@@ -31,7 +31,7 @@ else:
     google_api_key=GOOGLE_API_KEY
 )
 
-    )
+    
 
     # Setup conversation memory and chain
     memory = ConversationBufferMemory(return_messages=True)
